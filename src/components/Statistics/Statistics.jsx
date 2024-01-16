@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './Profile.module.css';
+import css from './Statistic.module.css';
 
 export default function Statistic({ stats }) {
   <div className={css.Statistic}>
