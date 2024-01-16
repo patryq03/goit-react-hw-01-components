@@ -22,15 +22,15 @@ export default function App(){
      </Section>
 
       <Section>
-        <Statistics title="Upload stats" stats={uploadStats} />
+        {/*<Statistics title="Upload stats" stats={uploadStats} />*/}
       </Section>
 
       <Section>
-        <FriendList friends={friends} />
+        {/*<FriendList friends={friends} />*/}
       </Section>
 
       <Section>
-        <TransactionHistory transactions={transactions} />
+        {/*<TransactionHistory transactions={transactions} />*/}
       </Section>
     </div>
   );
