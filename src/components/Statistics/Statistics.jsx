@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './Statistic.module.css';
 
-export default function Statistic({ stats }) {
+export default function Statistics({ stats }) {
   <div className={css.Statistic}>
     <h1 className={css.h1}>UPLOAD STATS</h1>
     <ul className={css.list}>
