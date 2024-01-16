@@ -22,7 +22,7 @@ export default function App(){
      </Section>
 
       <Section>
-        {/*<Statistics title="Upload stats" stats={uploadStats} />*/}
+        <Statistics title="Upload stats" stats={uploadStats} />
       </Section>
 
       <Section>
