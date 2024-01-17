@@ -1,0 +1,29 @@
+.statistic{
+    width: 240px;
+    height: 100px;
+    background-color: white;
+}
+.h2{
+    color: #4e4e4e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    height: 100%;
+    width: 100%;
+}
+.item{
+    width: 25%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
 import css from './Statistic.module.css';
 
-export default function Statistics({ stats }) {
-  <div className={css.Statistic}>
-    <h1 className={css.h1}>UPLOAD STATS</h1>
+export default function Statistics({ title, stats }) {
+  <div className={css.statistic}>
+    <h2 className={css.h2}>{title.toUpperCase()}</h2>
     <ul className={css.list}>
       {stats.map(stats => (
         <li key={stats.id} className={css.item}>
-          <span className={stats.label}>{stats.label}</span>
-          <span className={stats.percentage}>{stats.percentage}</span>
+          <span className={css.label}>{stats.label}</span>
+          <span className={css.percentage}>{stats.percentage}</span>
         </li>
       ))}
     </ul>
