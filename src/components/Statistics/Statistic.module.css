@@ -20,10 +20,16 @@
     align-content: flex-start;
     height: 100%;
     width: 100%;
+    gap: 10px;
+    margin-left: -20px;
 }
 .item{
-    width: 25%;
-    height: 50px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    height: 50px;
     flex-wrap: wrap;
+    padding: auto;
+    gap: 10px;
 }
