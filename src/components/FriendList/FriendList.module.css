@@ -1,0 +1,23 @@
+ul{
+    gap: 20px;
+}
+.item{
+    display: flex;
+    gap: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
+}
+.status_true{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(67, 194, 67);
+    border-radius: 100%;
+}
+.status_false{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 100%;
+}

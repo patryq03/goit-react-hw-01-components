@@ -26,7 +26,13 @@ export default function App() {
       </Section>
 
       <Section>
-        <FriendList friends={friends} />
+        <FriendList
+        friends={friends}
+        id={friends.id} 
+        isOnline={friends.isOnline}
+        avatar={friends.avatar}
+        name={friends.name}
+        />
       </Section>
 
       <Section>
