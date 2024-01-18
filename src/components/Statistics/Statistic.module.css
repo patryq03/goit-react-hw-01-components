@@ -1,6 +1,6 @@
 .statistic{
     width: 240px;
-    height: 100px;
+    height: 130px;
     background-color: white;
 }
 .h2{
@@ -10,6 +10,7 @@
     justify-content: space-around;
     align-items: center;
     align-content: center;
+    padding-top: 30px;
 }
 .list{
     display: flex;
@@ -22,6 +23,7 @@
     width: 100%;
     gap: 10px;
     margin-left: -20px;
+    
 }
 .item{
     display: flex;
