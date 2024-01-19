@@ -1,0 +1,19 @@
+.table{
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.863);
+    width: 400px;
+    border-collapse: collapse;
+}
+.thead{
+    background-color: rgb(24, 129, 129);
+    color: white;
+}
+.th{
+    padding: 5px;
+    border: 1px solid white;
+}
+.td{
+    padding: 10px 20px;
+    border: 1px solid white;
+  
+}
