@@ -3,6 +3,7 @@ ul{
 }
 .item{
     display: flex;
+    align-items: center;
     gap: 20px;
     border: 1px solid lightgray;
     border-radius: 10px;
@@ -14,6 +15,7 @@ ul{
     height: 10px;
     background-color: rgb(67, 194, 67);
     border-radius: 100%;
+
 }
 .status_false{
     width: 10px;
