@@ -24,7 +24,7 @@ export default function TransactionHistory({ transactions}) {
   );
 }
 TransactionHistory.prototype = {
-    friends: PropTypes.arrayOf(
+  transactions: PropTypes.arrayOf(
       PropTypes.shape({
         type: PropTypes.string,
         amount: PropTypes.string,

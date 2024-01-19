@@ -4,7 +4,7 @@ import css from './Statistic.module.css';
 export default function Statistics({ title, stats }) {
   return(
   <div className={css.statistic}>
-    <h2 className={css.h2}>{title.toUpperCase()}</h2>
+    {title && <h2 className={css.h2}>{title}</h2>}
     <ul className={css.list}>
       {stats.map(({ id, label, percentage }) => (
         <li key={id} className={css.item}>
@@ -17,6 +17,7 @@ export default function Statistics({ title, stats }) {
 );
 }
 Statistics.propTypes = {
+  title: propTypes.string,
   stats: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,
