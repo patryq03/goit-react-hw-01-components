@@ -16,8 +16,8 @@ export default function Statistics({ title, stats }) {
   </div>
 );
 }
-Statistics.propTypes = {
-  title: propTypes.string,
+Statistics.prototype = {
+  title: PropTypes.string,
   stats: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,
