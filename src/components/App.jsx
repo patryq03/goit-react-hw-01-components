@@ -36,7 +36,7 @@ export default function App() {
       </Section>
 
       <Section>
-        {<TransactionHistory transactions={transactions} />}
+        {<TransactionHistory items={transactions} />}
       </Section>
     </div>
   );
